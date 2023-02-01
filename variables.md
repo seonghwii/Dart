@@ -95,7 +95,7 @@ __불가능(2)__
 그럴 경우에는 <span style="color:red">final</span>이나 <span style="color:red">var</span>로 변수를 선언해주어야 한다.
 
 ---
-> ## null-safety
+> ## ★ null-safety
 ### 잘못된 상태의 변수(null)를 참조하는 걸 막아주는 기능
 ```dart
 bool isEmpty(String string) => string.length == 0;
@@ -134,7 +134,7 @@ void main(){
     name?.isNotEmpty; // name이 null이 아닐 경우에 isNotEmpty를 반환한다.
 }
 ```
-> ## Late
+> ## late
 ### 변수를 데이터로 초기화해주지 않고 변수만 선언해줄 때 사용하는 기능   
 ##### (flutter로 API를 통해 값을 가져올 때 유용하게 사용하는 기능)  
 ```dart
@@ -146,7 +146,7 @@ void main() {
 ```
 1. late는 초기에 변수 선언 없이 변수를 사용할 수 있게 해 준다.
 2. API에서 값을 보내주면 late로 선언한 변수에 값을 넣어 준다. 
----
+
 
 
 

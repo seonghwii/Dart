@@ -22,7 +22,7 @@ Why Dart?
  ### 2. null safety   
 
  ---
- Why flutter choice dart?
+ Why flutter chooses dart?
  ===   
 
  ### 1. JIT, AOT 컴파일러 둘 다 존재하기 때문.
